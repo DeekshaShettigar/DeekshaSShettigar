@@ -1,0 +1,140 @@
+
+1) What is HTML?
+HTML stands for Hyper Text Markup Language. It is a standard text formatting language which is used to create and display pages on the Web.
+
+2) What are Tags?
+HTML tags are composed of three things: an opening tag, content and ending tag. Some tags are unclosed tags.
+
+3) Do all HTML tags have an end tag?
+No. There are some HTML tags that don't need a closing tag. For example: <image> tag, <br> tag.
+
+4) What is formatting in HTML?
+The HTML formatting is a process of format the text for a better look and feel. It uses different tags to make text bold, italicized, underlined. 
+
+5) How many types of heading does an HTML contain?
+The HTML contains six types of headings which are defined with the <h1> to <h6> tags. Each type of heading tag displays different text size from another. So, <h1> is the largest heading tag and <h6> is the smallest one.
+
+6) How to create a hyperlink in HTML?
+The HTML provides an anchor tag to create a hyperlink that links one page to another page.
+
+7) Which HTML tag is used to display the data in the tabular form?
+The HTML table tag is used to display data in tabular form (row * column).
+8) What are some common lists that are used when designing a page?
+Ordered list - The ordered list displays elements in numbered format. It is represented by <ol> tag.
+Unordered list - The unordered list displays elements in bulleted format. It is represented by <ul> tag.
+Definition list - The definition list displays elements in definition form like in dictionary. The <dl>, <dt> and <dd> tags are used to define description list.
+9) What is the difference between HTML elements and tags?
+HTML elements communicate to the browser to render text. When the elements are enclosed by brackets <>, they form HTML tags. Most of the time, tags come in a pair and surround content.
+10) What is semantic HTML?
+Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags.
+11) What is an image map?
+Image map facilitates you to link many different web pages using a single image. It is represented by <map> tag. You can define shapes in images that you want to make part of an image mapping.
+12) How to insert a copyright symbol on a browser page?
+You can insert a copyright symbol by using &copy; or &#169; in an HTML file.
+13) How to create a nested webpage in HTML?
+The HTML iframe tag is used to display a nested webpage. In other words, it represents a webpage within a webpage. The HTML <iframe> tag defines an inline frame.
+14) How do you keep list elements straight in an HTML file?
+You can keep the list elements straight by using indents.
+15) Does a hyperlink only apply to text?
+No, you can use hyperlinks on text and images both. 
+16) What is a style sheet?
+A style sheet is used to build a consistent, transportable, and well-designed style template. You can add these templates on several different web pages. It describes the look and formatting of a document written in markup language.
+17) Can you create a multi-colored text on a web page?
+Yes. To create a multicolor text on a web page you can use <font color ="color"> </font> for the specific texts you want to color.
+18) Is it possible to change the color of the bullet?
+The color of the bullet is always the color of the first text of the list. So, if you want to change the color of the bullet, you must change the color of the text.
+19) Explain the layout of HTML?
+HTML layout specifies a way in which the web page is arranged.
+20) What is a marquee?
+Marquee is used to put the scrolling text on a web page. It scrolls the image or text up, down, left or right automatically. You should put the text which you want to scroll within the <marquee>......</marquee> tag.
+21) How many tags can be used to separate a section of texts?
+Three tags are used to separate the texts.
+
+<br> tag - Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line
+<p> tag - The <p> tag contains the text in the form of a new paragraph.
+<blockquote> tag - It is used to define a large quoted section. If you have a large quotation, then put the entire text within <blockquote>.............</blockquote> tag.
+22) How to make a picture of a background image of a web page?
+To make a picture a background image on a web page, you should put the following tag code after the </head> tag.
+<body background = "image.gif">  
+Here, replace the "image.gif" with the name of your image file which you want to display on your web page.
+23) What are empty elements?
+HTML elements with no content are called empty elements. For example: <br>, <hr> etc.
+24) What is the use of a span tag? Give one example.
+The span tag is used for following things:
+For adding color on text
+For adding background on text
+Highlight any color text
+25) What is the use of an iframe tag?
+An iframe is used to display a web page within a web page.
+26) What are the entities in HTML?
+The HTML character entities are used as a replacement for reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML.
+27) Why is a URL encoded in HTML?
+An URL is encoded to convert non-ASCII characters into a format that can be used over the Internet because a URL is sent over the Internet by using the ASCII character-set only. If a URL contains characters outside the ASCII set, the URL has to be converted. The non-ASCII characters are replaced with a "%" followed by hexadecimal digits.
+28) Does a <!DOCTYPE html> tag is a HTML tag?
+No, the <!DOCTYPE html> declaration is not an HTML tag. There are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc. So, <!DOCTYPE html> is used to instruct the web browser about the HTML page.
+29) Write the basic structure of the HTML template?
+The basic structure of the HTML template is:
+<html>
+        <head>
+                     <title></title>
+        </head>
+        <body>
+        </body></html>
+30) What is HTML5?
+HTML5 is the latest or updated version of markup language that defines HTML.
+31) Name some new features which were not present in HTML but are added to HTML5?
+Some new features in HTML5 include:
+DOCTYPE declaration,section,header,footer,article,main,figcaption
+32) Define attributes in HTML tag.
+The HTML tag contains a field inside their tag which is called attributes of that tag.
+33) What are <br> tags in HTML?
+<br> tags are used to enter a new line into the HTML contents. These tags are generally used to separate two different lines of text between each other.
+34) Why Meta tags are used in HTML?
+Meta tags in html are used by the developer to tell the browser about the page description, author of the template, character set, keywords and many more.
+35) Define forms in HTML.
+Forms in html are required when we want to collect the user information whenever a user fills any form or provides any details and when we want to save it into our database.
+36) Why do we use the required attribute in HTML?
+The required attribute is used in HTML to make the field mandatory.
+37) Explain new form elements in HTML5.
+The new form elements that were added into HTML5 are:
+Datalist – It’s used as a list of options for input control.
+Keygen – This tag defines a key-pair generator (Private/Public) field.
+Output – It’s used to show the result of a calculation.
+38) Describe Form Input Types In HTML5?
+color – It’s applicable for HTML elements that represent color.
+date – It allows the user to select a date.
+DateTime – It enables the user to select a date and time (with time zone).
+DateTime-local – It allows the user to select a date and time (without time zone).
+email – It is applicable for input fields that contain an e-mail address.
+month – It permits the user to select a month and year.
+number – It is applicable for input fields that accept a numeric value. It allows setting restriction on the data type of the number, this field takes.
+range – It is applicable for input fields that accept a value from a range of numbers. It allows setting restriction on the data type of the number, this field takes.
+search – It gets used for search fields.
+tel – It defines a field for entering a telephone number.
+time – It allows the user to select a time.
+URL – It is applicable for the input fields that contain a URL address.
+week – It allows the user to select a week and a year.
+39) What is the use of figure tag in HTML 5?
+The figure tag is used to add a photo in the document on the web page. It is used to handle the group of diagrams, photos, code listing with some embedded content
+40) What is button tag?
+The button tag is used in HTML 5. It is used to create a clickable button within the HTML form on the web page. It is generally used to create a "submit" or "reset" button. Let's see the code to display the button.
+41) What is the use of details and summary tag?
+The details tag is used to specify some additional details on the web page. It can be viewed or hidden on demand. The summary tag is used with details tag.
+42) What is datalist tag?
+The HTML 5 datalist tag provides an autocomplete feature on the form element. It facilitates users to choose the predefined options to the users to select data.
+43)  If I do not put <!DOCTYPE html> will HTML 5 work?
+No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly.
+44) What are the new <input> types for form validation in HTML5?
+The new input types for form validation are email, URL, number, tel, and date.
+45) How do you insert a comment in HTML?
+Comments in HTML begins with “<!–“nd ends with “–>”
+46) What is an image map?
+Image map lets you link to many different web pages using a single image. 
+47) Can attribute values be set to anything or are there specific values that they accept?
+Some attribute values can be set to only predefined values. Other attributes can accept any numerical value that represents the number of pixels for a size.
+48) How do you create links to sections within the same page?
+Links can be created using the <a> tag, with referencing through the use of the number (#) symbol. For example, you can have one line as <a href=”#topmost”>BACK TO TOP</a>, which would result in the words “BACK TO TOP” appearing on the webpage and links to a bookmark named topmost.
+49) State  bullet types available in HTML 
+With ordered lists, you can select to use some different list types including alphabetical and Roman numerals. The type attribute for unordered lists can be set to disc, square, or circle.
+50) What is the use of Canvas element?
+The canvas element helps to build charts, graphs, bypass Photoshop to create 2D images and place them directly into HTML5 code.
