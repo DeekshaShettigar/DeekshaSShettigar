@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+  
+  
+</head>
+<body>
+  
+    
+
+    <legend class="font" style="background-color: #fff;font-size: 28px;font-weight: bolder;left: 650px;position: relative;top: 50px;">Create Batch</legend>
+
+          <!-- <legend>Create Batch:</legend>  -->
+        
+    <div class="card card-body col-md-4 offset-4 mt-5 " style="background-color: #fff;">
+
+<div class="card-body">
+        <form  action="" method="post" #form="ngForm" (ngSubmit)="batchdetails(form.value)">   
+            
+                
+             
+            
+        <div class="form-row mt-3">                  
+            <div class="form-group col" >
+                  <input type="text" class="form-control font" id="input" name="client" placeholder="Enter Client Name" #client="ngModel"
+                      ngModel required>
+                  
+            </div>
+            <div class="col font" id="billdesc">
+
+                <select class="custom-select" id="test" name="technology" #technology="ngModel" ngModel>
+                  <option selected disabled value="">Choose technology</option>
+                  <option class="non" value="option1">Java full stack</option>
+                  <option class="non" value="option2">Mean stack</option>
+                  <option class="non" value="option1">Data science</option>
+                  <option class="editable" value="other">Other</option>
+    
+                </select>
+                <input class="editOption" style="display:none;" placeholder="technology" name="technology" ngModel>
+              </div>
+        </div>
+        <div class="form-row mt-3">                  
+
+            <div class="form-group col-md-6">
+                    <select class="form-control font"  id="batchtype"  name="batchtype" #batchtype='ngModel'  ngModel required>
+                            <option value="" selected disabled hidden>Batchtype</option>
+                            <option>Paid</option>  
+                            <option value="other">Free</option>
+                          </select> 
+                
+            </div>
+            <div class="form-group col-md-6" >
+                    <input type="number" class="form-control font"  id="province" name="fees" placeholder="Fees Info" #fees="ngModel"
+                        ngModel required>
+                    
+              </div>
+        </div>
+              <div class="form-row mt-3">                  
+
+              <div class="form-group col-md-6" >
+                    <input type="number" class="form-control font" id="input" name="costpercandi" placeholder="Cost Per Candidate" #costpercandi="ngModel"
+                        ngModel required>
+                   
+              </div>
+              <div class="form-group col-md-6" >
+                    <input type="text" class="form-control font" id="input" name="location" placeholder="Location" #location="ngModel"
+                        ngModel required>
+                   
+              </div>
+            </div>
+            <div class="form-row mt-3">                  
+
+            <div class="form-group col-md-6" >
+                <input type="date" class="form-control font" id="input" name="startdate" placeholder="startdate" #startdate="ngModel"
+                    ngModel required>
+                
+          </div>
+          <div class="form-group col-md-6" >
+            <input type="date" class="form-control font" id="input" name="enddate" placeholder="enddate" #enddate="ngModel"
+                ngModel required>
+            
+      </div>
+            </div>
+            <div class="form-row mt-3">                  
+
+      <div class="form-group col-md-6">
+        <select class="form-control font" id="input"  name="traineetype" #traineetype='ngModel'  ngModel required>
+                <option value="" selected disabled hidden>Select Trainee type</option>
+                <option>Freshers </option>  
+                <option>Lateral</option>
+                <option>Mixed</option>
+              </select>  
+   
+</div>
+            <div class="form-group col-md-6">
+                    <select class="form-control font" id="input"  name="modeoftrainee" #modeoftrainee='ngModel'  ngModel required>
+                            <option value="" selected disabled hidden>Mode Of Training</option>
+                            <option>Online Training</option>  
+                            <option>Offline Training</option>
+                          </select>  
+                
+            </div>
+          </div>
+          <div class="form-row mt-3">                  
+
+            <div class="form-group col-md-6">
+                <select class="form-control font" id="input"  name="progtype" #progtype='ngModel'  ngModel required>
+                        <option value="" selected disabled hidden>Select Program Type</option>
+                        <option>HTD </option>  
+                        <option>ELF</option>
+                      </select>  
+            
+        </div>
+        <div class="form-group col-md-6" >
+            <input type="date" class="form-control font" id="input" name="invoice" placeholder="Invoice Date" #invoice="ngModel"
+                ngModel required>
+            
+      </div>
+          </div>
+    
+        <div class="float-right">
+            <button type="submit" class="btn btn-primary font">Create</button></div>
+          <div class="float-right" style="position: relative; right: 10px;">
+            <button type="reset" class="btn btn-secondary font ">Reset</button></div>
+            
+          
+        </form>
+        </div>
+      </div> 
+
+
+
+</body>
+</html>
+ 
+ 

@@ -1,0 +1,109 @@
+/* color: #263248;  blue
+
+color: #ff9800 !important;
+
+background-color: #F5F5F5; */
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.navbar-brand {
+    font-weight: 600 !important;
+    font-size: 25px !important;
+    margin-right: 3rem !important;
+}
+.new-bg {
+    background-color: #263248;
+}
+.new-link {
+    color: #fff !important;
+    padding: 5px 12px !important;;
+}
+
+.new-link:hover {
+    color: #ff9800 !important;
+}
+
+footer {
+    background-color: #F5F5F5;
+    padding: 25px;
+}
+.social {
+    /* margin-top: 20px; */
+}
+.social a {
+    color: #263248;
+    font-size: 22px;
+    margin: 10px 5px;
+}
+i.fab.fa-facebook-f {
+    /* background-color: #9e9e9ed1; */
+    padding: 6px 12px;
+    border: 2px solid #ff9800;
+    border-radius: 10px;
+}
+
+i.fab.fa-linkedin-in {
+    /* background-color: #9e9e9ed1; */
+    padding: 6px 8px;
+    border: 2px solid #ff9800;
+    border-radius: 10px;
+}
+i.fab.fa-instagram {
+    /* background-color: #9e9e9ed1; */
+    padding: 6px 8px;
+    border: 2px solid #ff9800;
+    border-radius: 10px;
+}
+.text {
+    color: #263248;
+}
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: 1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color:black;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color:black;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: 100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
